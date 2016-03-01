@@ -1,1 +1,1 @@
-{}
+[[{"location":"C:\\Program Files (x86)\\Java\\jre1.8.0_40","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"],[{"location":"C:\\Users\\jgray\\.m2\\repository\\org\\slf4j\\log4j-over-slf4j\\1.7.16\\log4j-over-slf4j-1.7.16.jar","type":"JAR","hints":{}},"org.slf4j:log4j-over-slf4j:1.7.16"],[{"location":"C:\\Projects\\Working\\kBPM\\engine","type":"PROJECT","hints":{"PROJECT_NAME":"engine"}},"com.ka-tet:engine:0.1.0"]]
