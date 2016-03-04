@@ -2,6 +2,7 @@ package engine;
 
 import org.apache.log4j.Logger;
 import org.springframework.context.event.ContextRefreshedEvent;
+import org.springframework.context.event.ApplicationContextEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 import org.yaml.snakeyaml.events.Event;
@@ -23,7 +24,12 @@ public class Engine extends Node {
 	public void handleContextRefresh(ContextRefreshedEvent event){
 		logger.info("kbpm Context refresh begins.");
 	}
-	
+
+	@EventListener
+	public void xhandleContextRefresh(ApplicationContextEvent event){
+		logger.info("kbpm Event: " + event.toString());
+	}
+
 	@EventListener
 	public void handleEvent(Event event){
 		logger.info("kbpm Event: " + event.toString());
