@@ -7,10 +7,8 @@ import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 import org.yaml.snakeyaml.events.Event;
 
-import common.Node;
-
 @Component
-public class Engine extends Node {
+public class Engine {
 	
 	private static final Logger logger = Logger.getLogger(Engine.class.getName());
 	
