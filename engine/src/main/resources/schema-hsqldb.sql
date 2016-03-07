@@ -1,6 +1,5 @@
 
 CREATE SCHEMA engine AUTHORIZATION DBA;
-
 SET SCHEMA engine;
 CREATE TABLE node (
 	node_id binary(16) NOT NULL,
